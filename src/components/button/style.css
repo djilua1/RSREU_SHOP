@@ -1,0 +1,61 @@
+.top-menu-button {
+  margin-left: 60px;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  padding: 32px 14px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #646464;
+  overflow: hidden;
+}
+
+.top-menu-button:hover {
+  border-bottom: 4px solid #333;
+  transition: border-bottom-color .2s;
+}
+
+.active-button {
+  border-bottom: 4px solid #333;
+  transition: border-bottom-color .2s;
+}
+
+.dropdown-menu {
+  position: relative;
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 82px;
+  left: 0;
+}
+
+.brand {
+  cursor: pointer;
+  color: #161616;
+  display: block;
+  padding: 5px 6px;
+  width: 150px;
+  border-radius: 3px;
+}
+
+.brand:hover {
+  background-color: #cfd2d7 !important;
+}
+
+.search-all {
+  cursor: pointer;
+  position: absolute;
+  bottom: 5px;
+  border-radius: 3px;
+  right: 5px;
+  padding: 5px 10px 5px 10px;
+}
+
+.search-all:hover {
+  background-color: #cfd2d7 !important;
+}

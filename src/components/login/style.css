@@ -1,0 +1,39 @@
+.form {
+  margin: 250px;
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  position: relative;
+  border: solid 2px #ecf9ff;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.title {
+  font-family: Arial;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: #555555;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.wrapper-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.wrapper-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
